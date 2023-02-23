@@ -1,0 +1,98 @@
+.save_page__wrapper{
+    padding:130px;
+    display: flex;
+    justify-content: space-between;
+    height:100vh;
+    background-color: var(--blue-dark)
+}
+.save_page__wrapper h1{ padding-bottom:0.5rem }
+.save_page__great p{
+  max-width:500px;
+  line-height: 1.7
+}
+.save_page__menu{
+  text-align: right;
+}
+.save_page__menu h1{ padding-bottom: 1rem}
+.save_page__menu .saved_menu__item{
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.save_page__menu p{
+  padding-bottom: 0.5rem
+}
+.save_page__menu .saved_menu__item p{
+  max-width: 500px;
+  display: block;
+}
+
+.btn-print{
+  position: absolute;
+  top:60%;
+  left:130px;
+  background-color: var(--blue-dark);
+  border:1px solid var(--blue-medium);
+  border-radius: 30px;
+  padding:1rem
+}
+.btn-print:hover{ border-color: var(--blue-light)}
+.btn-print:active{ background-color: var(--blue-light)}
+
+.save_page__wrapper .list{
+  position:absolute;
+}
+.save_page__wrapper .list1{
+  transform: rotate(180deg);
+  max-width:115px;
+  bottom:130px;
+  left:60px
+}
+.save_page__wrapper .list2{
+  transform: rotate(280deg);
+  max-width:160px;
+  top:60px;
+  right:30%
+}
+.save_page__wrapper .list3{
+  transform: rotate(310deg);
+  max-width:188px;
+  top:60px;
+  left:40%
+}
+.save_page__wrapper .list4{
+  transform: rotate(0deg);
+  max-width:200px;
+  bottom:25%;
+  left:20%
+}
+.save_page__wrapper .list5{
+  transform: rotate(0deg);
+  max-width:175px;
+  bottom:130px;
+  right:0
+}
+.save_page__wrapper .list6{
+  transform: rotate(-60deg);
+  max-width:150px;
+  bottom:3%;
+  left:50%
+}
+.save_page__wrapper .list7{
+  transform: rotate(180deg);
+  max-width:160px;
+  top:3%;
+  right:3%
+}
+.save_page__wrapper .list8{
+  transform: rotate(40deg);
+  max-width:140px;
+  top:45%;
+  left:40%
+}
+.save_page__wrapper .list9{
+  transform: rotate(310deg);
+  max-width:188px;
+  top:50%;
+  right:20%
+}

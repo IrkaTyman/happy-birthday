@@ -1,0 +1,29 @@
+:root{
+  --blue-dark:#181E2C;
+  --blue-medium:#424C62;
+  --blue-light:#9EA6B8;
+  --green:#82A223
+}
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  font-size: 1rem;
+  cursor:default
+}
+html{
+  font-size: 15px;
+}
+
+/******** Базовые стили тегов ********/
+p{ font-weight: 500 }
+h1,h2{ font-weight: 700}
+h1{ font-size: 1.8rem}
+h2, .fs19{font-size: 1.3rem}
+.App{
+  background-color: var(--blue-dark);
+  width:100vw;
+  overflow-y:hidden
+}
+.cursor_p{ cursor: pointer;}
